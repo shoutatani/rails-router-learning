@@ -1,0 +1,63 @@
+[sho@Sho-MacBook-Pro ~/src/github.com/shoutatani/rails-router-learning ] % bundle exec rails g controller admin::books index show
+Running via Spring preloader in process 90995
+      create  app/controllers/admin/books_controller.rb
+       route  namespace :admin do
+  get 'books/index'
+  get 'books/show'
+end
+      invoke  erb
+      create    app/views/admin/books
+      create    app/views/admin/books/index.html.erb
+      create    app/views/admin/books/show.html.erb
+      invoke  test_unit
+      create    test/controllers/admin/books_controller_test.rb
+      invoke  helper
+      create    app/helpers/admin/books_helper.rb
+      invoke    test_unit
+      invoke  assets
+      invoke    js
+      create      app/assets/javascripts/admin/books.js
+      invoke    scss
+      create      app/assets/stylesheets/admin/books.scss
+
+[sho@Sho-MacBook-Pro ~/src/github.com/shoutatani/rails-router-learning ] % bundle exec rails g controller schools::high_schools index show
+Running via Spring preloader in process 91214
+      create  app/controllers/schools/high_schools_controller.rb
+       route  namespace :schools do
+  get 'high_schools/index'
+  get 'high_schools/show'
+end
+      invoke  erb
+      create    app/views/schools/high_schools
+      create    app/views/schools/high_schools/index.html.erb
+      create    app/views/schools/high_schools/show.html.erb
+      invoke  test_unit
+      create    test/controllers/schools/high_schools_controller_test.rb
+      invoke  helper
+      create    app/helpers/schools/high_schools_helper.rb
+      invoke    test_unit
+      invoke  assets
+      invoke    js
+      create      app/assets/javascripts/schools/high_schools.js
+      invoke    scss
+      create      app/assets/stylesheets/schools/high_schools.scss
+
+[sho@Sho-MacBook-Pro ~/src/github.com/shoutatani/rails-router-learning ] % bundle exec rails g controller apples index show
+Running via Spring preloader in process 91441
+      create  app/controllers/apples_controller.rb
+       route  get 'apples/index'
+get 'apples/show'
+      invoke  erb
+      create    app/views/apples
+      create    app/views/apples/index.html.erb
+      create    app/views/apples/show.html.erb
+      invoke  test_unit
+      create    test/controllers/apples_controller_test.rb
+      invoke  helper
+      create    app/helpers/apples_helper.rb
+      invoke    test_unit
+      invoke  assets
+      invoke    js
+      create      app/assets/javascripts/apples.js
+      invoke    scss
+      create      app/assets/stylesheets/apples.scss

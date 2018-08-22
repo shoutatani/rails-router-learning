@@ -1,0 +1,2 @@
+module Schools::HighSchoolsHelper
+end
