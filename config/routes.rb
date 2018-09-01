@@ -25,7 +25,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     # access to /admin/books, guide /admin/books_controller
-    resources :books, only: %i(index show) do
+    resources :books, only: %i(index show), shallow: true do
       # access to /admin/books/1/articles, guide /admin/articles_controller
       resources :articles, only: [:index, :show]
 

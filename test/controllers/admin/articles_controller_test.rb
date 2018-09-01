@@ -7,7 +7,7 @@ class Admin::ArticlesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get show" do
-    get admin_book_article_url({book_id: 1, id: 2})
+    get admin_article_url({id: 2})
     assert_response :success
   end
 
